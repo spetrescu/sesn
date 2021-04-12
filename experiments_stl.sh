@@ -4,10 +4,12 @@
 STL_DIR="${STL_DIR:-./datasets/stl10}"
 
 
+#--batch_size 128 => old batch size
+
 function train_stl() {
     # 1 model_name
     python train_stl10.py \
-        --batch_size 128 \
+        --batch_size 16 \
         --epochs 1000 \
         --optim sgd \
         --decay 0.0005 \
