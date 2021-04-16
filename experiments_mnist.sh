@@ -42,14 +42,14 @@ function train_scale_mnist() {
 #     "mnist_dss_vector_56"
 #     "mnist_dss_scalar_28"
 #     "mnist_dss_scalar_56"
-#     "mnist_ses_scalar_28"   # MNIST (28x28) 
-#     "mnist_ses_scalar_56"   # MNIST (56x56)
-#     "mnist_ses_vector_28"   # MNIST (28x28)
-#     "mnist_ses_vector_56"   # MNIST (56x56)
-#     "mnist_ses_scalar_28p"  # MNIST (28x28) +
-#     "mnist_ses_scalar_56p"  # MNIST (56x56) +
 
 model_list=(
+    "mnist_ses_scalar_28"   # MNIST (28x28) 
+    "mnist_ses_scalar_56"   # MNIST (56x56)
+    "mnist_ses_vector_28"   # MNIST (28x28)
+    "mnist_ses_vector_56"   # MNIST (56x56)
+    "mnist_ses_scalar_28p"  # MNIST (28x28) +
+    "mnist_ses_scalar_56p"  # MNIST (56x56) +
     "mnist_ses_vector_28p"  # MNIST (28x28) +
     "mnist_ses_vector_56p"  # MNIST (56x56) +
 )
